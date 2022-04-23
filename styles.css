@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Temporary styles */
+
+/*This will give all your elements a bit of padding and a border so you can more easily see the structure of the website
+---Once you are finished you can remove this--- */
+/* * {
+    padding: 0.5rem;  
+    border: 2px solid grey; 
+} */
+/* html, body {
+    border: none; 
+} */
+
+/* give you headings, paragraphs and links a border */
+/* h1, h2, h3, h4, h5, h6, p, a {
+    border: 2px solid rgb(172, 50, 50);
+} */
+
+
+/* block out where your images will go */
+/* .bg-image {
+    background-color: rgb(249, 249, 150);
+} */
+/* end of temporary styles */
+
+/* utility styles */
+[class*="grid-"], [class*="grid_"], [class~="grid-"] {
+    margin: 0;
+}
+[class*="col-"], [class*="col_"], [class~="col-"] {
+    padding: 0;
+}
+.padded    { padding: 5%;    }
+.padded-lg { padding: 10%;   }
+.padded-1  { padding: 1rem;  }
+.padded-2  { padding: 2rem;  }
+
+.margin-b-0 { margin-bottom: 0; }
+
+.bg-featured { background-color: #1C2A2C; }
+.bg-dark     { background-color: #24282B; }
+
+.text-light { color: white;}
+.text-dark { color:#000b1b;}
+
+.tall-30  {  min-height: 30vh;}
+.tall-50  {  min-height: 50vh;}
+.tall-60  {  min-height: 60vh;}
+.tall-70  {  min-height: 70vh;}
+.tall-80  {  min-height: 80vh;}
+.tall-90  {  min-height: 90vh;}
+.tall-100 {  min-height: 100vh;}
+
+.left   { text-align: left;}
+.center { text-align: center;}
+.right  { text-align: right;}
+
+.subtle { opacity: 80%;}
+/* TYPOGRAPHY */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+h1 { font-size: 8rem;}
+h2 { font-size: 2.5rem;}
+h3 { font-size: 2rem;}
+
+p {
+    font-weight: 300;   
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+   }
+
+/* p:last-child {
+    margin-bottom: 0;
+} */
+
+a {
+    color: inherit;
+}
+
+nav a { 
+    text-decoration: none; 
+}
+
+a:hover { color: #4e91ad; }
+
+.not-bold { font-weight: 400;}
+.fab {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+/* IMAGES */
+.bg-image {
+    background-color: #24282B; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-1.jpg');
+}
+.bg-padded { padding-bottom: 30%;}
+
+.bg-roof { 
+    background-image: url(/images/the-bunker-roof.jpg);
+    background-position: 50% 50%;
+}
+.bg-bed { background-image: url(/images/the-bunker-bed.jpg);}
+.bg-corridor { 
+    background-image: url(/images/the-bunker-corridor.jpg);
+    background-position: 50% 40%;
+}
+.bg-lobby { background-image: url(/images/the-bunker-lobby.jpg);}
+.bg-bar { 
+    background-image: url(/images/the-bunker-bar.jpg);
+    background-position: 50% 60%;    
+}
+.bg-sheets { background-image: url(/images/the-bunker-sheets.jpg);}
+.bg-map { 
+    background-image: url('/images/the-bunker-map.png');
+    background-position: bottom;
+}
+
+/* SOCIALS */
+
+.social-banner { background-position: 50% 17%;}
+
+/* FOOTER */
+.logo {
+    font-size: 8rem;
+}
