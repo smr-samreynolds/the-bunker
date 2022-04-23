@@ -61,6 +61,7 @@
 .right  { text-align: right;}
 
 .subtle { opacity: 80%;}
+
 /* TYPOGRAPHY */
 body {
     font-family: 'Raleway', sans-serif;
@@ -98,10 +99,12 @@ nav a {
 a:hover { color: #4e91ad; }
 
 .not-bold { font-weight: 400;}
+
 .fab {
     font-size: 1.5rem;
     padding: 1.5rem;
 }
+
 /* IMAGES */
 .bg-image {
     background-color: #24282B; 
