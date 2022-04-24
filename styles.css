@@ -140,6 +140,32 @@ a:hover { color: #4e91ad; }
 .social-banner { background-position: 50% 17%;}
 
 /* FOOTER */
-.logo {
-    font-size: 8rem;
+footer h2 {
+    font-size: 6rem;
+    line-height: 1;
+}
+footer p { margin-bottom: 0.4rem; }
+
+/* responsive styles */
+@media (max-width: 48em){
+    .hide-sm { display: none;}
+    .flex-flip-sm { flex-direction: column-reverse;}
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    footer h2 {
+        font-size: 3.5rem;
+    }
+    
+    .social-banner {
+        background-image: none;
+        background-color: #1C2A2C;
+        min-height: 25vh;
+        text-align: center;
+    }
+    .social-banner h2 {
+        font-size: 2.5rem;
+    }
 }
